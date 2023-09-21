@@ -1,10 +1,8 @@
 package com.mk.streams.lectures;
 
-import com.mk.streams.beans.Person;
 import com.mk.streams.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

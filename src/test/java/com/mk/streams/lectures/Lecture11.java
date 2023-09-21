@@ -1,10 +1,7 @@
 package com.mk.streams.lectures;
 
-import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -5,8 +5,6 @@ import com.mk.streams.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;

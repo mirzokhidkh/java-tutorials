@@ -6,10 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.DoubleSummaryStatistics;
-import java.util.List;
-import java.util.function.Predicate;
 
 public class Lecture7 {
 

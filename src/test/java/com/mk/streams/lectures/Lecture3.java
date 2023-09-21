@@ -2,7 +2,6 @@ package com.mk.streams.lectures;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Comparator;
 import java.util.List;
 
 public class Lecture3 {

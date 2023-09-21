@@ -1,15 +1,9 @@
 package com.mk.streams.lectures;
 
-import com.mk.streams.beans.Car;
-import com.mk.streams.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class Lecture9 {
 
