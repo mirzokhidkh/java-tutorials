@@ -26,6 +26,8 @@ public class Main {
 
         System.out.println(result1 + " and " + result2);
 
+        String $ = "as";
+
 //        squareCalculator.shutdown();
     }
 }
