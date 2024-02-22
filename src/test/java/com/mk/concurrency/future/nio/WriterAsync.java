@@ -64,7 +64,7 @@ public class WriterAsync implements Runnable {
 //        });
 
         long end = System.currentTimeMillis();
-        System.out.println(ANSI_GREEN_BACKGROUND + n + " files saved " + "in  folder " +folderName+ "- TOTAl TIME (seconds) ===> " + (end - start) / 1000 + ANSI_RESET);
+        System.out.println(ANSI_GREEN_BACKGROUND + n + " files saved " + "in  folder " + folderName + "- TOTAl TIME (seconds) ===> " + (end - start) / 1000 + ANSI_RESET);
 
 
     }
@@ -94,6 +94,8 @@ public class WriterAsync implements Runnable {
                     while ((bytesRead = inputStream.read(buffer)) != -1) {
                         outputStream.write(buffer, 0, bytesRead);
                     }
+                } finally {
+                    inputStream.close();
                 }
 
                 System.out.println("File '" + fileName + "' written successfully in folder " + folderName);

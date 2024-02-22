@@ -13,7 +13,7 @@ public class WriteFileAsyncTest {
     static final String targetPath = "files";
     static int i = 0;
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args)  {
 
 //        // Optionally, you can wait for the completion of all file writes
 //        try {
@@ -46,7 +46,7 @@ public class WriteFileAsyncTest {
         long start = System.currentTimeMillis();
 
 //        ExecutorService executor = Executors.newFixedThreadPool(3);
-        ExecutorService executor = new ThreadPoolExecutor(10, 10, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
+        ExecutorService executor = new ThreadPoolExecutor(5, 10, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
         List<Future<?>> futures = new ArrayList<>();
 
         // Specify the folder where files will be written
