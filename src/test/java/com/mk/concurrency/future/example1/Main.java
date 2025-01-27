@@ -1,7 +1,9 @@
 package com.mk.concurrency.future.example1;
 
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
@@ -29,5 +31,8 @@ public class Main {
 //        String $ = "as";
 
 //        squareCalculator.shutdown();
+
+
+        ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) Executors.newSingleThreadExecutor();
     }
 }
