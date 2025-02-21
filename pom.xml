@@ -17,8 +17,8 @@
     </build>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <guava.version>32.0.1-jre</guava.version>
         <j.assert.version>3.21.0</j.assert.version>
         <junit.version>5.9.3</junit.version>

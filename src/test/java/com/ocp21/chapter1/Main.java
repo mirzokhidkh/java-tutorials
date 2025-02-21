@@ -1,4 +1,4 @@
-package com.mk.ocp.chapter1;
+package com.ocp21.chapter1;
 
 public class Main {
     private String name = "11";

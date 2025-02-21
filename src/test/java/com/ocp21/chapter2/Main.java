@@ -1,7 +1,5 @@
-package com.mk.ocp.chapter2;
+package com.ocp21.chapter2;
 
-
-import java.lang.reflect.Type;
 
 public class Main {
     public static void main(String[] args) {
