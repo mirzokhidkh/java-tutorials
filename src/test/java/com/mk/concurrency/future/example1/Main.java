@@ -30,6 +30,8 @@ public class Main {
 
 //        String $ = "as";
 
+        String $ = "as";
+
 //        squareCalculator.shutdown();
 
 
