@@ -10,8 +10,5 @@
         <module name="java-tutorials" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="streams" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>

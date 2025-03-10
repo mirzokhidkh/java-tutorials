@@ -42,5 +42,19 @@ public class Main {
         System.out.println(ZonedDateTime.now());
 
 
+        System.out.println("AA".substring(1,1));
+        String a = "a";
+
+        System.out.println(a=="a");
+
+        int[][] arr= new int[2][];
+
+        arr[0] = new int[]{1,2};
+        arr[1] = new int[]{1,2,2};
+
+
     }
+}
+class A {
+
 }
