@@ -30,6 +30,15 @@ public class Main {
         System.out.println(str.length());
         System.out.println(str.indent(-1).length());
 
+        String s1="hello";
+        String s2=new String("hello");
+
+        System.out.println(s1==s2);
+
+        String intern = s2.intern();
+
+        System.out.println(s1 == intern);
+
         System.out.println(str.stripIndent());
 
         StringBuilder stringBuilder = new StringBuilder();
@@ -51,6 +60,8 @@ public class Main {
 
         arr[0] = new int[]{1,2};
         arr[1] = new int[]{1,2,2};
+
+
 
 
     }

@@ -13,27 +13,29 @@ public class DateExample {
 
 
 
-        LocalDateTime localDateTime = LocalDateTime.now();
+        var localDateTime = LocalDateTime.now();
 
         System.out.println(localDateTime);
 
         System.out.println(localDateTime.plusMinutes(0));
 
-        System.out.println(Period.ofMonths(3));
+        System.out.println(Period.ofMonths(23));
 
-        LocalDate localDate1 = LocalDate.of(2000, Month.AUGUST, 19);
-        LocalTime localTime = LocalTime.of(8, 40);
+        var localDate1 = LocalDate.of(2025, Month.JANUARY, 20);
+        var localTime = LocalTime.of(6, 15);
 
 
 
-        LocalDateTime localDateTime1 = LocalDateTime.of(localDate1, localTime);
+        var localDateTime1 = LocalDateTime.of(localDate1, localTime);
 
         System.out.println(localDateTime1);
 
-        Duration duration = Duration.ofHours(25);
-
+        Duration duration = Duration.ofHours(23);
         System.out.println(localDateTime1.plus(duration));
 
+
+        duration = Duration.ofDays(1);
+        System.out.println(localDate1.plus(duration));
 
 
     }
