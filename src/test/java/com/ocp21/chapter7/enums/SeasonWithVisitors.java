@@ -1,4 +1,4 @@
-package com.ocp21.chapter7v2.enums;
+package com.ocp21.chapter7.enums;
 
 interface Visitors {
     void printVisitors();

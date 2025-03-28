@@ -1,4 +1,4 @@
-package com.ocp21.chapter7v2.record;
+package com.ocp21.chapter7.record;
 
 public record TestRecord (int code,String name){
 }

@@ -1,4 +1,4 @@
-package com.ocp21.chapter7v2.polymorphism;
+package com.ocp21.chapter7.polymorphism;
 
 class Penguin {
     public static int getHeight() {
