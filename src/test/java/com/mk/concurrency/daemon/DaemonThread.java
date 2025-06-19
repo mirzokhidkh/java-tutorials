@@ -23,15 +23,15 @@ public class DaemonThread extends Thread{
         DaemonThread t1 = new DaemonThread(10);
         DaemonThread t2 = new DaemonThread(50);
 
-        System.out.println(Thread.currentThread().getName());
+//        System.out.println(Thread.currentThread().getName());
         System.out.println(Thread.currentThread().getThreadGroup());
-//        t1.setDaemon(true);
+        t1.setDaemon(true);
         t1.start();
         t1.join();
 
-        System.out.println(Thread.currentThread().getName());
+//        System.out.println(Thread.currentThread().getName());
 
-//        t2.setDaemon(true);
+        t2.setDaemon(true);
         t2.start();
 //        t2.join();
 
