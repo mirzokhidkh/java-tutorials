@@ -5,5 +5,9 @@ public class Main {
         double naN = Double.NaN;
 
         System.out.println(naN);
+
+        int a = 5;
+
+        System.out.println(a++);
     }
 }

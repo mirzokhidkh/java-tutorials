@@ -1,5 +1,7 @@
 package com.ocp21.chapter13_Concurrency.thread;
 
+import java.time.Duration;
+
 public class ThreadJoinExamples {
     
     public static void main(String[] args) {
@@ -71,7 +73,7 @@ public class ThreadJoinExamples {
         
         try {
             System.out.println("Main thread: Waiting max 3 seconds for completion...");
-            boolean finished = longRunningTask.join(3000); // Wait max 3 seconds
+            boolean finished = longRunningTask.join(Duration.ofDays(3000)); // Wait max 3 seconds
             
             if (longRunningTask.isAlive()) {
                 System.out.println("Main thread: Task didn't finish in time, still running");
